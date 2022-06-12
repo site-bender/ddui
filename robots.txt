@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /coverage
+Disallow: /old
+Disallow: /playwright-report
+Disallow: /setup
+Disallow: /tests

@@ -1,0 +1,119 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: Aileron, sans-serif;
+  font-weight: 400;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Aileron, sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+}
+
+*:focus {
+  box-shadow: none;
+  outline: var(--focus-outline-color) dotted 2px;
+  outline-offset: 0.2em;
+}
+
+main#root {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* @media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    box-sizing: inherit;
+  }
+} */
+
+:root {
+  --avatar-font-size: 14px;
+  --avatar-font-weight: 500;
+  --avatar-height: 32px;
+  --avatar-margin: 4px;
+  --avatar-width: 32px;
+}
+
+body {
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+
+.screenreader-text:focus {
+  color: black;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}

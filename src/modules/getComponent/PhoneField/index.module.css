@@ -1,0 +1,14 @@
+.phoneField {
+	align-items: center;
+	display: flex;
+	gap: 0 1rem;
+	justify-content: space-between;
+}
+
+.phoneField > div:first-child {
+	flex-basis: 20%;
+}
+
+.phoneField > div:last-child {
+	flex-basis: 80%;
+}

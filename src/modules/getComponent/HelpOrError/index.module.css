@@ -1,0 +1,37 @@
+.description {
+	width: 100%;
+	font-family: Aileron, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	color: #00000099;
+	margin: 0 0 0 1rem;
+}
+
+*:focus-within .description {
+	color: #197e8f;
+}
+
+*:disabled .description {
+	color: hsla(0, 0%, 62%, 1);
+}
+
+.errorText {
+	width: 100%;
+	font-family: Aileron, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	color: var(--coral-base);
+	margin: 0 0 0 1rem;
+}
+
+*:focus-within .errorText {
+	color: var(--coral-base);
+}
+
+*:disabled .errorText {-webkit-mask-repeat-x: ;
+	color: hsla(0, 0%, 62%, 1);
+}

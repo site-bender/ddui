@@ -1,0 +1,133 @@
+# Parts
+
+## Individual account
+
+- Personal details
+  - Text
+  - Username email
+  - Display name
+  - Given/Middle/Family name
+  - Phone number
+  - Mobile number
+- Tax details
+  - Text
+  - Resident Withholding Tax Rate
+    - Text
+    - Radio button (disabled)
+  - IRD number
+    - Text
+    - String field
+- Individual members (if potential invitees other than self)
+  - Text
+  - Member 1
+    - Name (which one?)
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Member 2
+    - Name (which one?)
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Etc.
+
+## Trust account
+
+- Personal details
+  - Text
+  - Username email
+  - Display name
+  - Given/Middle/Family name
+  - Phone number
+  - Mobile number
+- Tax details
+  - Text
+  - Resident Withholding Tax Rate
+    - Text
+    - Radio button (disabled)
+  - IRD number
+    - Text
+    - String field
+- Trust details
+  - Text
+  - Primary contact email
+  - Primary contact mobile number
+  - Primary contact phone number
+- Trust members (if potential invitees other than self)
+  - Text
+  - Member 1
+    - Name (which one?)
+    - Role (Trustee) -- not on individual account
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Member 2
+    - Name (which one?)
+    - Role (Trustee) -- not on individual account
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Etc.
+
+## Joint account
+
+- Personal details
+  - Text
+  - Username email
+  - Display name
+  - Given/Middle/Family name
+  - Phone number
+  - Mobile number
+- Tax details
+  - Text
+  - Resident Withholding Tax Rate
+    - Text
+    - Radio button (disabled)
+  - IRD number
+    - Text
+    - String field
+- Joint members -- **check on this**
+  - Text
+  - Member 1
+    - Name (which one?)
+    - Role (Trustee) -- not on individual account
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Member 2
+    - Name (which one?)
+    - Role (Trustee) -- not on individual account
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Etc.
+
+## Company account
+
+- Personal details
+  - Text
+  - Username email
+  - Display name
+  - Given/Middle/Family name
+  - Phone number
+  - Mobile number
+- Tax details
+  - Text
+  - Resident Withholding Tax Rate
+    - Text
+    - Radio button (disabled)
+  - IRD number
+    - Text
+    - String field
+- Company details
+  - Text
+  - Primary contact email
+  - Primary contact mobile number
+  - Primary contact phone number
+- Company members (if potential invitees other than self)
+  - Text
+  - Member 1
+    - Name (which one?)
+    - Role (Employee)
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Member 2
+    - Name (which one?)
+    - Role (Employee)
+    - Status (Active member, Invited, Not invited, Pending acceptance)
+    - Email address -- not on Active member
+  - Etc.

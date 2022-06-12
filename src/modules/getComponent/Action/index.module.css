@@ -1,0 +1,79 @@
+.button {
+	align-items: center;
+	border-radius: 1.5rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-grow: 0;
+	font-size: 0.875rem;
+	font-style: normal;
+	font-weight: 600;
+	gap: 0.5rem;
+	height: 2.8125rem;
+	justify-content: flex-start;
+	letter-spacing: 0.02rem;
+	line-height: 1;
+	margin: 1.25rem 0 0;
+	padding: 0.5rem 2.25rem;
+	width: fit-content;
+}
+
+.button:disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.outline {
+	background-color: #ffffff;
+	color: 'var(--teal)';
+}
+
+.link {
+	background-color: transparent;
+	border: 1px solid transparent;
+	cursor: pointer;
+	font-family: Aileron;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 0.025rem;
+	line-height: 1rem;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.primary {
+	background-color: var(--teal);
+	border: 1px solid var(--teal);
+	color: #ffffff;
+}
+
+.secondary {
+	background-color: var(--teal);
+	border: 1px solid var(--teal);
+	color: #ffffff;
+}
+
+.danger {
+	background-color: var(--coral-base);
+	border: 1px solid var(--coral-base);
+	color: #ffffff;
+}
+
+.link.primary {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: var(--teal);
+}
+
+.link.secondary {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: var(--teal);
+}
+
+.link.danger {
+	background-color: transparent;
+	border: 1px solid transparent;
+	color: var(--coral-base);
+}

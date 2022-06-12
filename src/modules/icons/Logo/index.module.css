@@ -1,0 +1,7 @@
+.logoIcon {
+  width: 120px;
+}
+
+.logoIcon > g {
+  fill: #28a47d;
+}

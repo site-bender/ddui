@@ -1,0 +1,17 @@
+.loading {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 1.2rem;
+	font-weight: 200;
+	gap: 2.5rem;
+	color: #28a47d;
+	background-color: #ffffff;
+	width: 100vw;
+	height: 100vh;
+}
+
+.loading p {
+	margin-top: 3rem;
+}

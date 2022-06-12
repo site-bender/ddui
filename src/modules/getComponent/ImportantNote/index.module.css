@@ -1,0 +1,23 @@
+.importantNote {
+	margin: 1.25rem 0;
+}
+
+.importantNote header {
+	color: var(--important-note-header-color, #393d42);
+	font-family: Aileron, sans-serif;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1rem;
+	text-transform: uppercase;
+}
+
+.importantNote p {
+	color: var(--important-note-color, #687079);
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 1rem;
+	margin: 0.25rem 0 0;
+	max-width: 460px;
+}

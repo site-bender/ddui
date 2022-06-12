@@ -1,0 +1,11 @@
+.mutation {
+	padding: 0 0 2.5rem;
+	margin: 0 0 2.5rem;
+}
+
+.mutation h3 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 2.5rem;
+	margin-bottom: 1.5rem;
+}

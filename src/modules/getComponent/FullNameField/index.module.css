@@ -1,0 +1,16 @@
+.fullNameField {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 1rem;
+}
+
+.fullNameField > div:first-child:nth-last-child(3),
+.fullNameField > div:first-child:nth-last-child(3) ~ div {
+	flex-basis: calc(50% - 0.5rem);;
+}
+
+.fullNameField > div:first-child:nth-last-child(2),
+.fullNameField > div:first-child:nth-last-child(2) ~ div,
+.fullNameField > div:last-child {
+	flex-basis: 100% !important;
+}

@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./src",
+		"esModuleInterop": false,
+		"forceConsistentCasingInFileNames": true,
+		"importsNotUsedAsValues": "error",
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"noEmit": true,
+		"paths": {
+			"~EditProfile/*": ["EditProfile/*"],
+			"~getComponent/*": ["modules/getComponent/*"],
+			"~icons/*": ["modules/icons/*"],
+			"~services/*": ["services/*"],
+			"~setup/*": ["../setup/*"],
+			"~utilities/*": ["utilities/*"],
+			"~/*": ["*"]
+		},
+		"plugins": [{ "name": "typescript-plugin-css-modules" }],
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": false,
+		"sourceMap": true,
+		"strict": true,
+		"target": "ESNEXT",
+		"types": ["vite/client", "node", "vitest/globals"]
+	},
+	"exclude": ["node_modules", "temp"],
+	"include": [
+		"./src/**/*",
+		"./vite.config.ts"
+	]
+}
