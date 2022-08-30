@@ -1,8 +1,8 @@
 import generateShortId from "~utilities/generateShortId"
-import { countries } from "../constants"
 import ElementField from "../ElementField"
 import StringField from "../StringField"
 import type { PhoneDatatypeProps } from "../types"
+import { countries } from "../utilities/constants"
 import css from "./index.module.css"
 
 export default function PhoneField(props: PhoneDatatypeProps): JSX.Element {

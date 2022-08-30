@@ -1,7 +1,9 @@
 <!-- markdownlint-disable-next-line no-inline-html -->
 <h1 id="top">DDUI (DDUI) Overview</h1>
 
-**PLEASE UPDATE THE DOCUMENTATION whenever you make changes to this code base.** (Psst. This means *you*.)
+**Note: this is a copy of the open-source-able portions of a proprietary app, hence the `App` folder with all the bespoke code is missing. What remains here is intended to be use "elsewhere". Also note, this is not fully implemented. Some code could not be finished before I moved on, so it was left for the next dev to complete.**
+
+This was an experiment in best practices (but the code is currently in production at a private wealth bank).
 
 If you're new to this code base, here is something important to understand: every single choice in this application&mdash;*every single one of them*&dash;was made for a well-considered reason. There were no arbitrary decisions. Nothing was done because "that's the way we've always done it". Everything was viewed with fresh eyes and a questioning attitude: Is this the best way? Can this be done better?
 
